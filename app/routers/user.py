@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, status, HTTPException
-from app.models import User
+from app.models import User, Task
 from sqlalchemy.orm import Session
 from app.backend.db_depends import get_db
 from typing import Annotated
@@ -20,9 +20,24 @@ async def all_users(db: Annotated[Session, Depends(get_db)]):
 async def user_by_id(db: Annotated[Session, Depends(get_db)],
                      user_id: int):
 
-    one_user = db.scalar(select(User).where(User.id == user_id))
-    if one_user is not None:
-        return one_user
+    check_user = db.scalar(select(User).where(User.id == user_id))
+    if check_user:
+        return check_user
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail='User was not found'
+        )
+
+
+@router.get('/user_id/tasks')
+async def tasks_by_user_id(db: Annotated[Session, Depends(get_db)],
+                           user_id: int):
+
+    check_user = db.scalar(select(User).where(User.id == user_id))
+    if check_user:
+        tasks_user = db.scalars(select(Task).where(Task.user_id == user_id)).all()
+        return tasks_user
     else:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
@@ -32,13 +47,13 @@ async def user_by_id(db: Annotated[Session, Depends(get_db)],
 
 @router.post('/create')
 async def create_user(db: Annotated[Session, Depends(get_db)],
-                      model: CreateUser):
+                      schema: CreateUser):
 
-    db.execute(insert(User).values(username=model.username,
-                                   firstname=model.firstname,
-                                   lastname=model.lastname,
-                                   age=model.age,
-                                   slug=slugify(model.username)))
+    db.execute(insert(User).values(username=schema.username,
+                                   firstname=schema.firstname,
+                                   lastname=schema.lastname,
+                                   age=schema.age,
+                                   slug=slugify(schema.username)))
     db.commit()
     return {'status_code': status.HTTP_201_CREATED,
             'transaction': 'Successful'}
@@ -73,6 +88,7 @@ async def delete_user(db: Annotated[Session, Depends(get_db)],
     user_check = db.scalar(select(User).where(User.id == user_id))
     if user_check:
         db.execute(delete(User).where(User.id == user_id))
+        db.execute(delete(Task).where(Task.user_id == user_id))
         db.commit()
         return {
             'status_code': status.HTTP_200_OK,
