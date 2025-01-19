@@ -5,12 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238b2412-c969-46e1-9d0e-21c44b26ffc7" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example2/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/example3/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskmanager.db" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
