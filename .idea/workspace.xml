@@ -5,39 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238b2412-c969-46e1-9d0e-21c44b26ffc7" name="Changes" comment="Done">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/second_task/class_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/second_task/def_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/second_task/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task3/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/third_task/basket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/third_task/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/third_task/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example1/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/example3/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/example3/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.task.executor": "Run",
     "Python.user.executor": "Run",
@@ -92,6 +73,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PRJCTs\NewHomework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\templates\third_task\img" />
+      <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\templates\third_task" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -158,10 +143,19 @@
       <option name="project" value="LOCAL" />
       <updated>1737274618668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Done">
+      <option name="closed" value="true" />
+      <created>1737361924391</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737361924391</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Done" />
     <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
