@@ -1,0 +1,16 @@
+{% extends 'fourth_task/menu.html' %}
+
+{% block title %} Корзина {% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h2> 1998-й давно прошел, таких игр не делают, и делать не будут - уже не купишь
+        <img src="https://otvet.imgsmail.ru/download/875a8375f91de049494d6073098e8a2f_6e3e4645051f19de74bd2430d04200e4.gif"
+        height="100" width="100"> </h2>
+    <form action="/platform" method="get">
+        <button> Вернуться обратно </button>
+    </form>
+{% endblock %}

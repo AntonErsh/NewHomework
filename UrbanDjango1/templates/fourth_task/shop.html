@@ -1,0 +1,23 @@
+{% extends 'fourth_task/menu.html' %}
+{% load static %}
+
+{% block title %} Buy Games in 1998 {% endblock %}
+
+{% block header%}
+    <h1><b>Игры 1998</b></h1>
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<ul>
+    {% for game in games %}
+        <li> {{game}} <button>Купить</button></li>
+    {% endfor %}
+</ul>
+<form action="/platform" method="get">
+    <button> Вернуться обратно </button>
+</form>
+{% endblock %}
