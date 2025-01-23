@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'example1', 'example2', 'example3',
-    'task2', 'task3', 'task4'
+    'task2', 'task3', 'task4', 'task5'
 ]
 
 MIDDLEWARE = [

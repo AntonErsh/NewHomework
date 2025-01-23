@@ -5,22 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238b2412-c969-46e1-9d0e-21c44b26ffc7" name="Changes" comment="Done">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/media_folder/urls_img_games.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task4/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/fourth_task/basket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/fourth_task/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/fourth_task/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/task5/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango1/templates/fifth_task/registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/Baldur's Gate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/Half-Life.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/Metal Gear Solid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/Resident Evil 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/Vangers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_folder/urls_img_games.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/UrbanDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanDjango1/templates/second_task/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango1/templates/second_task/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/Baldur's Gate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/Half-Life.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/Metal Gear Solid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/Resident Evil 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/Vangers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango1/media_folder/urls_img_games.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +92,7 @@
       <recent name="D:\PRJCTs\NewHomework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\templates\fourth_task" />
       <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\media_folder" />
       <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\templates" />
       <recent name="D:\PRJCTs\NewHomework\UrbanDjango1\templates\third_task\img" />
@@ -178,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737531484230</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Done">
+      <option name="closed" value="true" />
+      <created>1737544941247</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737544941247</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Done">
+      <option name="closed" value="true" />
+      <created>1737544990592</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737544990592</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
